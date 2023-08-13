@@ -1,0 +1,1 @@
+create table if not exists sakila_wh.dbt_log (dbt_id varchar,start_at timestamp, status varchar, dbt_total_sec int)
